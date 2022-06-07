@@ -48,54 +48,55 @@ header {
   height: auto;
 }
 /* Site nav */
-.container .all-nav {
+.container .header__container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
 }
-.all-nav {
+.header__container {
   display: flex;
   align-items: center;
   height: 80px;
 }
-.main-nav {
+.navigation {
   display: flex;
   align-items: center;
 }
-.site-nav {
+.nav-list {
   display: flex;
   margin-left: 93px;
 }
-.site-nav .item {
+.nav-list .nav-list__item {
   margin-right: 50px;
 }
-.site-nav .item:last-child {
-  margin-right: 0;
+
+.nav-list .nav-list__item:not(:last-child) {
+  margin-right: 50px;
 }
-.site-nav .link {
+.nav-list .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
   transition: color 250ms var(--timing-function);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-list .link:hover,
+.nav-list .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.nav-list .link.current {
   color: var(--accent-color);
 }
-.site-nav {
+.nav-list {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.site-nav a {
+.nav-list a {
   text-decoration: none;
 }
 
@@ -158,7 +159,7 @@ header {
   color: var(--accent-color);
   cursor: pointer;
 }
-.class-header-logo {
+.logo__header {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -169,6 +170,29 @@ header {
   color: #2196f3;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.header__web {
+  color: var(--primary-text-color);
+  margin-left: -7px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.footer__logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  padding-bottom: 0;
+  padding-top: 0;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+.footer__web {
+  color: var(--background-color-white);
+  margin-left: -7px;
 }
 
 /* Button */
@@ -671,29 +695,6 @@ a:focus .product-overlay {
   align-items: baseline;
   padding: 0 15px;
   margin: 0 auto;
-}
-.logo-footer {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  padding-bottom: 0;
-  padding-top: 0;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--accent-color);
-  margin-bottom: 20px;
-}
-.another-class {
-  color: var(--background-color-white);
-  margin-left: -7px;
-}
-.second-class {
-  color: var(--primary-text-color);
-  margin-left: -7px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .info {
   font-family: "Roboto";
