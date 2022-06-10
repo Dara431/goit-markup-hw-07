@@ -451,10 +451,10 @@ header {
 
 /* Section team*/
 .block_name {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 42px;
   margin-top: 0;
   margin-bottom: 50px;
   text-align: center;
@@ -545,18 +545,7 @@ header {
   background-color: var(--accent-color);
 }
 /* Постоянные клиенты*/
-.clients-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  margin-top: 0;
-  margin-bottom: 50px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.clients-list {
+.clients {
   display: flex;
 }
 .clients-icon {
@@ -576,7 +565,7 @@ header {
   width: 106px;
   height: 60px;
 }
-.clients-list-item:not(:last-child) {
+.clients-card:not(:last-child) {
   margin-right: 30px;
 }
 .clients-icon-img {
@@ -697,7 +686,7 @@ a:focus .product-overlay {
   padding: 0 15px;
   margin: 0 auto;
 }
-.info {
+.footer__space {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -727,15 +716,14 @@ a:focus .product-overlay {
 .contact-info a {
   text-decoration: none;
 }
-.footer-class {
+.footer__item {
   margin-bottom: 9px;
 }
-.footer-class:nth-child(3) {
+.footer__item:nth-child(3) {
   margin-bottom: 0;
 }
 
 /* footer-icons*/
-
 .footer-title {
   font-family: "Roboto";
   font-style: normal;
@@ -753,21 +741,16 @@ a:focus .product-overlay {
   height: 80px;
   margin-left: 70px;
 }
-.general-footer {
-  display: flex;
-  align-items: baseline;
-}
-.footer-social-icon {
+.social-footer {
   display: flex;
 }
 a.link {
   display: block;
 }
-
-.footer-first:not(:last-child) {
+.social-footer__item:not(:last-child) {
   padding-right: 10px;
 }
-.footer-social-link {
+.social-footer__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -777,12 +760,9 @@ a.link {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms var(--timing-function);
 }
-.footer-social-link:hover,
-.footer-social-link:focus {
+.social-footer__link:hover,
+.social-footer__link:focus {
   background-color: var(--accent-color);
-}
-.footer-social-list-footer {
-  fill: var(--background-color-white);
 }
 
 /* footer-form */
@@ -839,7 +819,6 @@ a.link {
   margin-left: 10px;
   margin-right: 18px;
 }
-
 .footer-button {
   font-family: "Roboto";
   font-weight: 700;
