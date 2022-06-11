@@ -651,6 +651,114 @@ a.link {
   margin-right: 30px;
 }
 
+.block_name {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.employee {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.employee__work {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.team-members {
+  display: flex;
+}
+
+.team-members__space {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-members .worker {
+  color: var(--primary-text-color);
+}
+
+.team-members .profession {
+  color: var(--secondary-text-color);
+}
+
+.section-team {
+  background-color: var(--team-background-color);
+}
+
+.team-members__picture {
+  background-color: var(--background-color-white);
+  margin-right: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-members__picture:nth-child(4) {
+  margin-right: 0;
+}
+
+.team-members__space {
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+
+.third-section {
+  padding-bottom: 94px;
+}
+
+.social {
+  display: flex;
+  width: 206px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--background-color-white);
+  border-radius: 50%;
+  color: var(--social-links-color);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
+}
+
+.social__icon {
+  fill: currentColor;
+}
+
+.social__link:hover,
+.social__link:focus {
+  color: var(--background-color-white);
+  background-color: var(--accent-color);
+}
+
 .footer-container {
   display: flex;
   align-items: baseline;
