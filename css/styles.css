@@ -188,7 +188,7 @@ header {
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color);
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 93px;
@@ -200,7 +200,7 @@ header {
   padding-bottom: 24px;
 }
 .footer__logo {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
