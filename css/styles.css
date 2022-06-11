@@ -1,4 +1,4 @@
-:root {
+/*:root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --black-second-color: #000000;
@@ -53,6 +53,15 @@ header {
 }
 .space-non {
   padding-top: 0;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 /* Site nav */
 .container .header__container {
@@ -180,7 +189,8 @@ header {
   color: var(--accent-color);
   cursor: pointer;
 }
-.logo__header {
+
+/*.logo__header {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -216,9 +226,8 @@ header {
   color: var(--background-color-white);
   margin-left: -7px;
 }
-
 /* Button */
-.container .buttons {
+/*.container .buttons {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -281,8 +290,9 @@ header {
   color: var(--background-color-white);
 }
 
+
 /* Hero */
-.hero {
+/*.hero {
   background-color: var(--hero-background-grey);
   text-align: center;
   padding-top: 200px;
@@ -359,7 +369,7 @@ header {
   transition: transform 250ms var(--timing-function);
 }
 /* Section first */
-.benefits {
+/*.benefits {
   display: flex;
 }
 .benefits-name {
@@ -545,7 +555,7 @@ header {
   background-color: var(--accent-color);
 }
 /* Постоянные клиенты*/
-.clients {
+/*.clients {
   display: flex;
 }
 .clients-icon {
@@ -680,7 +690,7 @@ a:focus .product-overlay {
 }
 
 /* footer*/
-.footer-container {
+/*.footer-container {
   display: flex;
   align-items: baseline;
   padding: 0 15px;
@@ -724,7 +734,7 @@ a:focus .product-overlay {
 }
 
 /* footer-icons*/
-.footer-title {
+/*.footer-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -766,7 +776,7 @@ a.link {
 }
 
 /* footer-form */
-.footer-label-span {
+/*.footer-label-span {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -828,13 +838,14 @@ a.link {
   color: var(--background-color-white);
 }
 
-/* modal*/
 .footer-button-subscriber:focus,
 .footer-button-subscriber:hover {
   background: var(--botton-hover-blue);
 }
 
-.backdrop {
+/* modal*/
+
+/*.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -974,15 +985,6 @@ a.link {
   top: 50%;
   left: 12px;
   transition: fill 250ms var(--timing-function);
-}
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
 }
 
 .contact-form-input:hover + .contact-form-input-icon,

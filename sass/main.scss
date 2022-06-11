@@ -6,3 +6,18 @@
 @import "./base/common";
 @import "./base/container";
 @import "./base/reset";
+
+//components
+@import "./components/logo";
+@import "./components/block-name";
+@import "./components/modal_form";
+@import "./components/buttons";
+@import "./components/footer-icons";
+@import "./components/footer-form";
+
+//layouts
+@import "./layouts/hero";
+@import "./layouts/benefits";
+@import "./layouts/clients";
+@import "./layouts/our-team";
+@import "./layouts/footer";
