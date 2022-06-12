@@ -64,7 +64,7 @@ header {
   width: 1px;
 }
 /* Site nav */
-.container .header__container {
+/*.container .header__container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -325,7 +325,7 @@ header {
 }
 
 /* Backdrop */
-.backdrop {
+/*.backdrop {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -424,7 +424,7 @@ header {
   background-image: url(../images/astronaut.svg);
 }
 /* Activity*/
-.process-work {
+/*.process-work {
   display: flex;
 }
 .process-work__picture {
@@ -592,7 +592,7 @@ header {
 }
 
 /* Портфолио */
-.description-photo-portfolio {
+/*.description-photo-portfolio {
   position: relative;
   overflow: hidden;
 }
