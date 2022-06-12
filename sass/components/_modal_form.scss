@@ -138,11 +138,11 @@
   top: 50%;
   left: 12px;
   transition: fill 250ms var(--timing-function);
-}
 
-.contact-form-input:hover + .contact-form-input-icon,
-.contact-form-input:focus + .contact-form-input-icon {
-  fill: var(--accent-color);
+  .contact-form-input:hover + &,
+  .contact-form-input:focus + & {
+    fill: var(--accent-color);
+  }
 }
 
 .contact-form-checkbox-label {

@@ -374,6 +374,12 @@ header {
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
+.button_portfolio:hover, .button_portfolio:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: var(--accent-color);
+  color: var(--background-color-white);
+}
+
 .button_portfolio.all {
   color: var(--background-color-white);
   background-color: var(--accent-color);
@@ -397,13 +403,6 @@ header {
   display: flex;
   justify-content: center;
   margin-bottom: 56px;
-}
-
-.button_portfolio:hover,
-.button_portfolio:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  background-color: var(--accent-color);
-  color: var(--background-color-white);
 }
 
 .footer-title {
@@ -448,8 +447,7 @@ a.link {
   transition: background-color 250ms var(--timing-function);
 }
 
-.social-footer__link:hover,
-.social-footer__link:focus {
+.social-footer__link:hover, .social-footer__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -477,12 +475,6 @@ a.link {
   color: var(--background-color-white);
 }
 
-.footer-form-wraper {
-  display: flex;
-  padding-top: 12px;
-  margin-left: 92px;
-}
-
 .footer-input-maill::placeholder {
   font-size: 16px;
   line-height: 20px;
@@ -490,6 +482,12 @@ a.link {
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form-wraper {
+  display: flex;
+  padding-top: 12px;
+  margin-left: 92px;
 }
 
 .footer-button-subscriber {
@@ -507,6 +505,10 @@ a.link {
   transition: background-color 250ms var(--timing-function);
 }
 
+.footer-button-subscriber:focus, .footer-button-subscriber:hover {
+  background: var(--botton-hover-blue);
+}
+
 .footer-vector-subscriber {
   margin-left: 10px;
   margin-right: 18px;
@@ -519,11 +521,6 @@ a.link {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--background-color-white);
-}
-
-.footer-button-subscriber:focus,
-.footer-button-subscriber:hover {
-  background: var(--botton-hover-blue);
 }
 
 .hero {
@@ -749,14 +746,13 @@ a.link {
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
 }
 
-.social__icon {
-  fill: currentColor;
-}
-
-.social__link:hover,
-.social__link:focus {
+.social__link:hover, .social__link:focus {
   color: var(--background-color-white);
   background-color: var(--accent-color);
+}
+
+.social__icon {
+  fill: currentColor;
 }
 
 .footer-container {

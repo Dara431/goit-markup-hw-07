@@ -7,10 +7,12 @@
   margin-right: 30px;
   justify-content: center;
   align-items: center;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
 }
-.process-work__picture:nth-child(3n) {
-  margin-right: 0;
-}
+
 .process-work__about {
   position: absolute;
   display: flex;
